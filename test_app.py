@@ -1,4 +1,4 @@
-from app import add, subtract, multiply
+from app import add, subtract, multiply, devide
 
 
 def test_add():
@@ -11,3 +11,6 @@ def test_subtract():
 
 def test_multiply():
     assert multiply(3, 5) == 15
+
+def test_devide():
+    assert devide(5, 2) == 2.5
