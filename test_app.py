@@ -12,5 +12,6 @@ def test_subtract():
 def test_multiply():
     assert multiply(3, 5) == 15
 
+
 def test_devide():
     assert devide(5, 2) == 2.5
